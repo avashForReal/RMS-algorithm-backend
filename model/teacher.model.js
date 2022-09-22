@@ -9,15 +9,17 @@ const teacherSchema = new mongoose.Schema({
     required: true,
     type: Number,
   },
-  type: {
-    required: true,
-    type: String,
-  },
+  // type: {
+  //   required: true,
+  //   type: String,
+  // },
   startTime: {
     type: String,
+    required: true
   },
   endTime: {
     type: String,
+    required: true
   },
   initial: {
     required: true,
